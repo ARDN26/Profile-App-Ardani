@@ -1,0 +1,75 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #b3fdf4;
+    padding: 40px;
+}
+
+.container {
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.profile-card {
+    background-color: rgba(199, 191, 191, 0.419);
+    
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px;
+}
+
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.info, .description {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+    text-align: justify;
+}
+
+.section {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.section h2 {
+    font-size: 20px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.section ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.section li {
+    font-size: 16px;
+    color: #444;
+    margin-bottom: 5px;
+}
